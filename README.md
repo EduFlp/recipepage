@@ -1,89 +1,60 @@
-# Frontend Mentor - Recipe page
+Recipe Page Challenge
 
-![Design preview for the Recipe page coding challenge](./design/desktop-preview.jpg)
+This a summary of what I learned and what the process of building the omelet page recipe website was like.
 
-## Welcome! 👋
+<-------- WHAT DID I LEARNED?-------->
 
-Thanks for checking out this front-end coding challenge.
+It was my first project. So it is hard to imagine "how I will start?", because I always watched classes to make things happen or I just repeated what my teacher was doing. I can say autonomy was the main lesson I learned from this project.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+Regard the language used in programming, some HTML tags, such as body tag, was a great challenge and a huge sucess. I learned how to work with it after many mistakes. Especially in this part: 
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+<table width="50%">
+        <tr>
+          <td>Calories</td>
+          <td class="line">277kcal</td>
+        </tr>
+        <tr>
+          <td>Carbs</td>
+          <td class="line">0g</td>
+        </tr>
+        <tr>
+          <td>Protein</td>
+          <td class="line">20g</td>
+        </tr>
+        <tr>
+          <td>Fat</td>
+          <td class="line">22g</td>
+        </tr>
+      </table>
 
-## The challenge
+The table tag was very hard to work, because I don't know how to modify a table or its rows. 
+The same thing occurs with de <ol> tag, becaus I don't know how to 'bold' the initial word in the Instructions part. But I think it is a CSS problem.
+<h4>Instructions</h4>
+    <ol>
+    <li>Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
+    <li>Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.</li>
+    <li>Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</li>
+    <li>Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
+    <li>Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
+    <li>Enjoy: Serve hot, with additional salt and pepper if needed.</li>
+    </ol>
 
-Your challenge is to build out this recipe page and get it looking as close to the design as possible.
+<-------CONTINUED DEVELOPMENT-------->
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+I need to practice this more. I mean, the CSS part was a lot more complex because I've never worked with it that much. However, I have found that I have certain shortcomings in my knowledge of HTML. 
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+<--------BUILT---------->
 
-## Where to find everything
+I used this resources: 
+-HTML 5
+-CSS 3
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+<---------- USEFULL RESOURCER-------->
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+I searched some videos on YouTube to have some ideas about the beggining of the site and what kind of tags I need to use to make my work easier.
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+<-----------ACKNOWLEDGEMENT------------->
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
-
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
-
-## Building your project
-
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
-
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
-
-## Deploying your project
-
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
-
-## Create a custom `README.md`
-
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of our [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+Thanks to my discord colleague who gave me some tips on how to do some work with the table. The problem is that I ended up getting the command wrong and had to do it myself, but I thank you anyway for the support and patience.
+---Thank you, MegaDraco---
